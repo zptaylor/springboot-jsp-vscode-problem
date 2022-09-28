@@ -6,10 +6,18 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch JarWebappExplodedExample",
+            "name": "Launch JarWebappExplodedExample 1",
             "request": "launch",
             "mainClass": "com.logicbig.example.JarWebappExplodedExample",
             "projectName": "boot-exploded-jar-webapp"
+        },
+        {
+            "type": "java",
+            "name": "Debug Launch JarWebappExplodedExample 2",
+            "request": "attach",
+            "projectName": "boot-exploded-jar-webapp",
+            "port": 5005,
+            "hostName": "127.0.0.1"
         }
     ]
 }
