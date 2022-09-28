@@ -15,6 +15,7 @@
             "type": "java",
             "name": "Debug Launch JarWebappExplodedExample 2",
             "request": "attach",
+            //java -agentlib:jdwp=transport=dt_socket,address=5005,server=y,suspend=n -jar boot-exploded-jar-webapp-1.0-SNAPSHOT.jar
             "projectName": "boot-exploded-jar-webapp",
             "port": 5005,
             "hostName": "127.0.0.1"
